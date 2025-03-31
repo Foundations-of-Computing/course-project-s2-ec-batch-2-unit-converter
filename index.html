@@ -1,0 +1,121 @@
+<!DOCTPYE html>
+<html lang="en">
+  <head>
+    <meta charset ="UTF-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+    <link rel="stylesheet" href="Unit conversion.css">
+    <title>Unit_conversion</title>
+     
+  </head>
+  <body>
+    <h1>Unit Conversion</h1>
+    <div class="container">
+         <h2>Length converter</h2>
+         <div>
+         <label for="degree">Enter length</label>
+         <input type="number" name="degree" id="inputValue"required>
+         </div>
+         <div class="inptsss">
+              <div>
+                  <label for ="type">From</label>
+                  <select name="type"id="type1">
+                      <option value="meter">Meter</option>
+                     <option value ="millimetre">Millimetre</option>
+                     <option value ="decimetre">Decimetre</option>
+                     <option value ="decametre">Decametre</option>
+                     <option value ="kilometre">Kilometre</option>
+                     <option value ="foot">Foot</option>
+              <option value ="mile">Mile</option>
+                   </select>
+               </div>
+               <div>
+                  <label for ="type">To</label>
+                  <select name="type"id="type2">
+                     <option value="meter">Meter</option>
+                     <option value ="millimetre">Millimetre</option>
+                     <option value ="decimetre">Decimetre</option>
+                     <option value ="decametre">Decametre</option>
+                     <option value ="kilometre">Kilometre</option>
+                     <option value ="foot">Foot</option>
+              <option value ="mile">Mile</option>
+                   </select>
+             </div>
+        </div>
+       <button onclick="convert()">Convert</button>
+       <div class="resultss">
+          <label for="result">Result:</label>
+          <div id="result"></div>
+      </div>
+     <div class="container">
+         <h2>Weight converter</h2>
+         <div>
+           <label for="degree">Enter weight</label>
+           <input type="number" name="degree" id="inputValue"required>
+         </div>
+         <div class="inptsss">
+              <div>
+                  <label for ="type">From</label>
+                  <select name="type"id="type1">
+                    <option value="gram">gram</option>
+                    <option value ="decigram">Decigram </option>
+                    <option value ="kilogram">Kilogram </option>
+                    <option value ="milligram">Milligram </option>
+                    <option value ="centigram">Centigram </option>
+                    <option value ="hectogram">Hectogram </option>
+                 </select>
+             </div>
+          <div>
+                  <label for ="type">To</label>
+                  <select name="type"id="type2">
+                       <option value="gram">gram</option>
+                       <option value ="decigram">Decigram </option>
+                       <option value ="kilogram">Kilogram </option>
+                       <option value ="milligram">Milligram </option>
+                       <option value ="centigram">Centigram </option>
+                       <option value ="hectogram">Hectogram </option>
+                 </select>
+           </div>
+        </div>
+         <button onclick="convert()">Convert</button>
+         <div class="resultss">
+          <label for="result">Result:</label>
+          <div id="result"></div>
+         </div>
+    <div class="container">
+         <h2>Time</h2>
+          <div>
+         <label for="degree">Enter time</label>
+         <input type="number" name="degree" id="inputValue"required>
+         </div>
+         <div class="inptsss">
+              <div>
+                  <label for ="type">From</label>
+                <select name="type"id="type1">
+              <option value="minute">Minute</option>
+              <option value ="hour">Hour</option>
+              <option value ="day">Day</option>
+              <option value ="week">Week</option>
+              <option value ="year">Year</option>
+         </select>
+              </div>
+          <div>
+              <label for ="type">To</label>
+                  <select name="type"id="type2">
+                       <option value="minute">Minute</option>
+                       <option value ="hour">Hour</option>
+                       <option value ="day">Day</option>
+                       <option value ="week">Week</option>
+                       <option value ="year">Year</option>
+                  </select>
+          </div>
+     </div>
+         <button onclick="convert()">Convert</button>
+         <div class="resultss">
+          <label for="result">Result:</label>
+          <div id="result"></div>
+         </div>
+         <script src="java.js"></script>
+   </body>
+</html>
+    
+   
